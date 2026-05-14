@@ -1,5 +1,8 @@
 # Autonomous Personal Finance Agent – Python dependencies
 
+# Python packaging
+setuptools==69.0.3
+
 # Azure SQL connectivity
 pyodbc==5.2.0
 
@@ -12,3 +15,20 @@ uvicorn[standard]==0.34.2
 
 # HTTP client (used by the agent via agent_client.py)
 requests==2.32.3
+
+# Gmail API – search billing emails
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.107.0
+
+# Web chatbot interface
+Flask==3.0.0
+
+# Windows notifications
+win10toast==0.9
+
+# Background scheduling
+APScheduler==3.10.4
+
+# Web scraping (optional)
+beautifulsoup4==4.12.2
