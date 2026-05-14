@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "gmail-search-agent": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/gmail"
+      ],
+      "env": {
+        "GMAIL_EMAIL": "your-email@gmail.com",
+        "GMAIL_APP_PASSWORD": "your-16-char-app-password"
+      }
+    }
+  }
+}
